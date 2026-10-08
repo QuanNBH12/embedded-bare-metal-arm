@@ -40,12 +40,12 @@ int main(void){
 
 	while (1){
 		/*3. Set PA5 high*/
-		//GPIOA_ODR |= LED_PIN;
+		GPIOA_ODR |= LED_PIN;
 
 		/*4. On off led*/
-		GPIOA_ODR ^= LED_PIN;
+		//GPIOA_ODR ^= LED_PIN;
 
-		for (int i = 0; i < 100000; i++){}
+		//for (int i = 0; i < 100000; i++){}
 	}
 }
 
